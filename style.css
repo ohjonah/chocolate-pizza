@@ -11,7 +11,7 @@ h1 {
   font-size: 35px;
 }
 
-p {
+header span {
   font-family: 'Roboto', sans-serif;
   font-size: 10px;
 }
@@ -21,47 +21,44 @@ p {
 ********************************/
 
 /*          HEADER          */
-header {
-  height: 45px;
-  background: gray;
-}
 
 header div {
   width: 960px;
   height: 45px;
-  padding: 30px;
-  margin: 0px auto;
-  text-align: left;
+  margin: 30px auto;
   outline: 1px solid orange;
 }
 
 .logo img {
   padding-right: 10px;
   display: inline;
-}
-
-header p {
-  float: left;
-  display: inline-block;
+  width: 45px;
 }
 
 header h1 {
-  float: left;
-  display: inline-block;
+  display: inline;
+  width: 35px;
+  vertical-align: top;
+}
+
+header span {
+  display: inline;
+  width: 10px;
+  vertical-align: bottom;
+  text-align: top;
 }
 
 nav {
-  position: absolute;
   height: 24px;
   margin-bottom: 0px;
-  outline: orange 1px solid;
+  outline: pink 1px solid;
 }
 
-/*nav ul li {
+nav ul li {
   outline: 1px dotted grey;
   float: right;
   margin-bottom: 11px;
-}*/
+}
 
 .clearfix {
   clear: both;
