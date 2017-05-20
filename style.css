@@ -1,9 +1,68 @@
+/* Fonts
+
+font-family: 'Merriweather', serif;
+font-family: 'Yellowtail', cursive;
+font-family: 'Oswald', sans-serif;
+
+*/
+
 h1 {
   font-family: 'Yellowtail', cursive;
-  font-size: 44px;
+  font-size: 35px;
 }
 
 p {
   font-family: 'Roboto', sans-serif;
   font-size: 10px;
+}
+
+/*******************************
+          App Styles
+********************************/
+
+/*          HEADER          */
+header {
+  height: 45px;
+  background: gray;
+}
+
+header div {
+  width: 960px;
+  height: 45px;
+  padding: 30px;
+  margin: 0px auto;
+  text-align: left;
+  outline: 1px solid orange;
+}
+
+.logo img {
+  padding-right: 10px;
+  display: inline;
+}
+
+header p {
+  float: left;
+  display: inline-block;
+}
+
+header h1 {
+  float: left;
+  display: inline-block;
+}
+
+nav {
+  position: absolute;
+  height: 24px;
+  margin-bottom: 0px;
+  outline: orange 1px solid;
+}
+
+/*nav ul li {
+  outline: 1px dotted grey;
+  float: right;
+  margin-bottom: 11px;
+}*/
+
+.clearfix {
+  clear: both;
 }
