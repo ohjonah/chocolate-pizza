@@ -156,7 +156,7 @@ main h2 {
 
 .profile .bio {
   position: relative;
-  width: 867px;
+  width: 682px;
   height: 93px;
   float: left;
 }
@@ -169,7 +169,30 @@ main h2 {
   border-radius: 50%;
 }
 
-.profile button {
+.profile h3 {
+  font-family: garamond;
+  font-weight: bold;
+  font-size: 22px;
+  color: #303030;
+}
+
+.profile span {
+  display: inline-block;
+  margin-top: 5px;
+  font-family: garamond;
+  font-weight: lighter;
+  font-size: 20px;
+  color: #303030;
+}
+
+.bio-btn {
+  width: 185px;
+  height: 70px;
+  position: relative;
+  float: right;
+}
+
+.bio-btn button {
   width: 185px;
   height: 54px;
   position: absolute;
