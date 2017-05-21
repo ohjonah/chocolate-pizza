@@ -120,18 +120,30 @@ main h2 {
 #ingredients-checklist {
   width: 960px;
   height: 305px;
+  padding: 0;
+  margin: 0 auto;
   font-family: 'Delius', cursive;
   font-size: 20px;
-  outline: 1px blue dotted;
+
   background-image: url('http://www.placehold.it/899x305');
 }
 
 #ingredients-checklist fieldset {
-  padding: 20px;
+  padding: 5px 15px;
 }
 
 #ingredients-checklist input {
   float: left;
+}
+
+.left-checklist {
+  float: left;
+  margin: 50px 50px;
+}
+
+.right-checklist {
+  float: right;
+  margin: 50px 50px;
 }
 
 .clearfix {
