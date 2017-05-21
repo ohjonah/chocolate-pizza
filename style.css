@@ -13,7 +13,7 @@ h1 {
 }
 
 header span {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 10px;
 }
 
@@ -89,7 +89,7 @@ main h2 {
   height: 12px;
   margin-top: 5px;
   margin-bottom: 30px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 12px;
 }
 
@@ -110,8 +110,9 @@ main h2 {
 
 #directions {
   margin: 30px 0px;
-  font-family: 'Merriweather', serif;
-  font-weight: lighter;
+  font-family: Serif;
+  font-weight: 100;
+  font-size: 20px;
 }
 
 .clearfix {
