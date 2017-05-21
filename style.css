@@ -148,11 +148,44 @@ main h2 {
 
 
 /* PROFILE */
+
 .profile {
+  width: 960px;
+  height: 220px;
+}
+
+.profile img {
+  width: 75px;
+  height: 160px;
+  float: left;
+}
+
+.profile .bio {
+  width: 700px;
+  height: 160px;
+  float: left;
+}
+
+.profile button {
+  width: 185px;
+  height: 54px;
+  float: right;
+  /*position: absolute;
+  top: 0;
+  right: 0;*/
+  border: none;
+  border-radius: 3px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  color: white;
+  background: #C06F5E;
+}
+
+/*.profile {
   position: relative;
   width: 960px;
   height: 220px;
-  outline: 2px dotted orange;
 }
 
 .profile img {
@@ -163,11 +196,11 @@ main h2 {
 
 .profile h3 {
   float: left;
-  display: block;
+  font-size: 16px;
+  display: inline-block;
 }
 
 .profile span {
-  float: left;
   display: block;
 }
 
@@ -184,7 +217,7 @@ main h2 {
   font-size: 18px;
   color: white;
   background: #C06F5E;
-}
+}*/
 
 .clearfix {
   clear: both;
