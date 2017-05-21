@@ -16,6 +16,10 @@ header span {
   font-size: 10px;
 }
 
+a {
+  color: black;
+}
+
 /*******************************
           App Styles
 ********************************/
@@ -58,6 +62,47 @@ nav ul li {
   outline: 1px dotted grey;
   float: right;
   margin-bottom: 11px;
+}
+
+/* MAIN */
+
+.lg-style-bar {
+  height: 8px;
+  width: 960px;
+  margin: 30px auto;
+  background-color: black;
+}
+
+main {
+  width: 960px;
+  margin: 0px auto;
+}
+
+main h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#main-sub-heading {
+  height: 12px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.right a {
+  color: #black;
+  text-decoration: none;
 }
 
 .clearfix {
