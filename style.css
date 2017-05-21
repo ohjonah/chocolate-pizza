@@ -154,57 +154,45 @@ main h2 {
   height: 220px;
 }
 
-.profile img {
-  width: 75px;
-  height: 160px;
-  float: left;
-}
-
 .profile .bio {
-  width: 700px;
-  height: 160px;
-  float: left;
-}
-
-.profile button {
-  width: 185px;
-  height: 54px;
-  float: right;
-  /*position: absolute;
-  top: 0;
-  right: 0;*/
-  border: none;
-  border-radius: 3px;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 200;
-  font-size: 18px;
-  color: white;
-  background: #C06F5E;
-}
-
-/*.profile {
   position: relative;
-  width: 960px;
-  height: 220px;
+  width: 682px;
+  height: 93px;
+  float: left;
 }
 
 .profile img {
+  width: 73px;
+  height: 70px;
   margin-right: 20px;
-  border-radius: 50%;
   float: left;
+  border-radius: 50%;
 }
 
 .profile h3 {
-  float: left;
-  font-size: 16px;
-  display: inline-block;
+  font-family: garamond;
+  font-weight: bold;
+  font-size: 22px;
+  color: #303030;
 }
 
 .profile span {
-  display: block;
+  display: inline-block;
+  margin-top: 5px;
+  font-family: garamond;
+  font-weight: lighter;
+  font-size: 20px;
+  color: #303030;
 }
 
-.profile button {
+.bio-btn {
+  width: 185px;
+  height: 70px;
+  position: relative;
+  float: right;
+}
+
+.bio-btn button {
   width: 185px;
   height: 54px;
   position: absolute;
@@ -217,7 +205,7 @@ main h2 {
   font-size: 18px;
   color: white;
   background: #C06F5E;
-}*/
+}
 
 .clearfix {
   clear: both;
