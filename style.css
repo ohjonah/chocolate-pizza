@@ -146,6 +146,46 @@ main h2 {
   margin: 50px 50px;
 }
 
+
+/* PROFILE */
+.profile {
+  position: relative;
+  width: 960px;
+  height: 220px;
+  outline: 2px dotted orange;
+}
+
+.profile img {
+  margin-right: 20px;
+  border-radius: 50%;
+  float: left;
+}
+
+.profile h3 {
+  float: left;
+  display: block;
+}
+
+.profile span {
+  float: left;
+  display: block;
+}
+
+.profile button {
+  width: 185px;
+  height: 54px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  border-radius: 3px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  color: white;
+  background: #C06F5E;
+}
+
 .clearfix {
   clear: both;
 }
