@@ -115,6 +115,25 @@ main h2 {
   font-size: 20px;
 }
 
+/* Ingredients List */
+
+#ingredients-checklist {
+  width: 960px;
+  height: 305px;
+  font-family: 'Delius', cursive;
+  font-size: 20px;
+  outline: 1px blue dotted;
+  background-image: url('http://www.placehold.it/899x305');
+}
+
+#ingredients-checklist fieldset {
+  padding: 20px;
+}
+
+#ingredients-checklist input {
+  float: left;
+}
+
 .clearfix {
   clear: both;
 }
