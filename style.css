@@ -3,8 +3,8 @@
 font-family: 'Delius', cursive;
 font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
-font-family: 'Merriweather', serif;
 font-family: 'Yellowtail', cursive;
+font-family: 'Droid Serif', serif;
 */
 
 h1 {
@@ -63,12 +63,16 @@ nav ul li:nth-child(3) {
 
 /* MAIN */
 
-/*.lg-style-bar {
-  height: 8px;
+.lg-style-bar {
   width: 960px;
   margin: 30px auto;
-  background-color: url("img/border-img.png");
-}*/
+}
+
+.lg-style-bar img {
+  width: 960px;
+  height: 13px;
+  background-repeat:repeat-x;
+}
 
 main {
   width: 960px;
@@ -85,8 +89,13 @@ main h2 {
   height: 12px;
   margin-top: 5px;
   margin-bottom: 30px;
+  color: #C8C8C8;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 12px;
+}
+
+#main-sub-heading a {
+  color: #C8C8C8;
 }
 
 .left {
@@ -102,26 +111,42 @@ main h2 {
   text-decoration: none;
 }
 
+#banner-img {
+  width: 960px;
+}
+
 /* Directions */
 
 #directions {
   margin: 30px 0px;
-  font-family: Serif;
-  font-weight: 100;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 20px;
+  font-weight: lighter;
+  color: #867970;
 }
 
 /* Ingredients List */
 
+#ingredients-main {
+  position: relative;
+  width: 960px;
+  height: 330px;
+}
+
+.ingredients-bg-pic {
+  position: absolute;
+  width: 960px;
+}
+
 #ingredients-checklist {
   width: 960px;
   height: 305px;
+  position: absolute;
   padding: 0;
   margin: 0 auto;
   font-family: 'Delius', cursive;
   font-size: 20px;
-
-  background-image: url('http://www.placehold.it/899x305');
+  color: #867970;
 }
 
 #ingredients-checklist fieldset {
@@ -130,6 +155,7 @@ main h2 {
 
 #ingredients-checklist input {
   float: left;
+  margin-right: 10px;
 }
 
 .left-checklist {
@@ -147,7 +173,7 @@ main h2 {
 
 .profile {
   width: 960px;
-  height: 220px;
+  height: 180px;
 }
 
 .profile .bio {
@@ -166,19 +192,19 @@ main h2 {
 }
 
 .profile h3 {
-  font-family: garamond;
+  font-family: 'Cormorant Garamond', serif;
   font-weight: bold;
   font-size: 22px;
-  color: #303030;
+  color: #867970;;
 }
 
 .profile span {
   display: inline-block;
   margin-top: 5px;
-  font-family: garamond;
-  font-weight: lighter;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: '300';
   font-size: 20px;
-  color: #303030;
+  color: #867970;
 }
 
 .bio-btn {
@@ -212,20 +238,21 @@ footer {
 
 footer img {
   margin-top: 3px;
+  margin-left: 5px;
   float: left;
 }
 
 .sm-style-bar {
-  width: 445px;
+  width: 460px;
   height: 1px;
-  margin: 14px 5px 17px 5px;
-  float: left;
-  background: gray;
+  margin: 17px auto;
+  background: #D0D0D0;
 }
 
 footer section {
   text-align: center;
   margin-top: 30px;
+  color: #D0D0D0;
 }
 
 .clearfix {
