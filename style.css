@@ -63,12 +63,12 @@ nav ul li:nth-child(3) {
 
 /* MAIN */
 
-/*.lg-style-bar {
+.lg-style-bar {
   height: 8px;
   width: 960px;
   margin: 30px auto;
-  background-color: url("img/border-img.png");
-}*/
+  background-image: url("https://github.com/ohjonah/chocolate-pizza/blob/master/img/lg-style-bar.png?raw=true");
+}
 
 main {
   width: 960px;
