@@ -61,30 +61,14 @@ nav ul li:nth-child(3) {
   margin-right: 9px;
 }
 
-
-
-/*header h1 {
-  display: inline;
-  width: 35px;
-  vertical-align: top;
-}
-
-header span {
-  display: inline;
-  width: 10px;
-  vertical-align: bottom;
-  text-align: top;
-}
-
-
 /* MAIN */
 
-.lg-style-bar {
+/*.lg-style-bar {
   height: 8px;
   width: 960px;
   margin: 30px auto;
-  background-color: black;
-}
+  background-color: url("img/border-img.png");
+}*/
 
 main {
   width: 960px;
