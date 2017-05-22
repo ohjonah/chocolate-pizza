@@ -12,10 +12,6 @@ h1 {
   font-size: 35px;
 }
 
-header span {
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 10px;
-}
 
 a {
   color: black;
@@ -27,52 +23,52 @@ a {
 
 /* HEADER */
 
-header div {
+header {
   width: 960px;
   height: 45px;
+  position: relative;
   margin: 30px auto;
-  outline: 1px solid orange;
 }
 
-.logo img {
-  padding-right: 10px;
-  display: inline;
+header div > img {
   width: 45px;
+  height: 45px;
+  float: left;
+  padding-right: 10px;
 }
 
-header h1 {
-  display: inline;
-  width: 35px;
-  vertical-align: top;
-}
-
-header span {
-  display: inline;
-  width: 10px;
-  vertical-align: bottom;
-  text-align: top;
+header section {
+  width: 200px;
+  height: 45px;
+  float: left;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 10px;
 }
 
 nav {
-  height: 24px;
-  margin-bottom: 0px;
-  outline: pink 1px solid;
+  height: 45px;
 }
 
 nav ul li {
-  outline: 1px dotted grey;
+  width: 24px;
+  height: 24px;
   float: right;
-  margin-bottom: 11px;
+  margin-top: 11px;
+  margin-right: 1px;
+}
+
+nav ul li:nth-child(3) {
+  margin-right: 9px;
 }
 
 /* MAIN */
 
-.lg-style-bar {
+/*.lg-style-bar {
   height: 8px;
   width: 960px;
   margin: 30px auto;
-  background-color: black;
-}
+  background-color: url("img/border-img.png");
+}*/
 
 main {
   width: 960px;
@@ -164,8 +160,8 @@ main h2 {
 .profile img {
   width: 73px;
   height: 70px;
-  margin-right: 20px;
   float: left;
+  margin-right: 20px;
   border-radius: 50%;
 }
 
